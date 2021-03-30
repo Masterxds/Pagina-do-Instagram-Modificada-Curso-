@@ -22,7 +22,7 @@ body{
     display: flex;
     align-items: center; /*eixo Y*/
     justify-content: start; /*eixo X*/
-    width: 60%;
+    width: 50%;
     height: 100vh;
 
 }
@@ -30,13 +30,13 @@ body{
 .codegram-codigo{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50%;
+    justify-content: flex-end;
+    width: 40%;
+    margin-bottom: 2rem;
 }
 
-
 .codegram-codigo img{
-    height: 45rem;
+    height: 42rem;
 }
 
 .codegram-continue{
@@ -60,13 +60,12 @@ body{
 }
 
 .group{
-    margin-left: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 80%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
